@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RendrePropreMonChezMoi – Services d'Entretien</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#hero">
+        <i class="bi bi-stars fs-4 text-warning"></i>
+        RendrePropreMonChezMoi
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#why-us">Pourquoi nous</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Équipe</a></li>
+          <li class="nav-item"><a class="nav-link" href="#recrutement">Recrutement</a></li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-warning text-dark px-3 fw-semibold ms-lg-2" href="#contact">Nous contacter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="hero" class="hero-section d-flex align-items-center">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative text-white text-center py-5">
+      <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill fs-6">
+        <i class="bi bi-shield-check me-1"></i> Service Professionnel
+      </span>
+      <h1 class="display-3 fw-black mb-3">
+        Un intérieur <span class="text-warning">impeccable</span>,<br class="d-none d-md-block" />
+        sans effort de votre part.
+      </h1>
+      <p class="lead mb-5 mx-auto" style="max-width:600px;">
+        RendrePropreMonChezMoi prend soin de votre domicile, bureau ou commerce
+        avec professionnalisme, discrétion et rigueur.
+      </p>
+      <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+        <a href="#contact" class="btn btn-warning btn-lg fw-bold px-5 shadow">
+          <i class="bi bi-telephone-fill me-2"></i>Demander un devis
+        </a>
+        <a href="#services" class="btn btn-outline-light btn-lg px-5">
+          <i class="bi bi-grid-3x3-gap me-2"></i>Nos services
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ STATS BAND ═══════════════ -->
+  <section class="stats-band py-4">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <span class="stat-number">500<sup>+</sup></span>
+            <p class="stat-label">Clients satisfaits</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <span class="stat-number">5</span>
+            <p class="stat-label">Ans d'expérience</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <span class="stat-number">100<sup>%</sup></span>
+            <p class="stat-label">Satisfaction garantie</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <span class="stat-number">24/7</span>
+            <p class="stat-label">Disponibilité</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section id="about" class="section-padding bg-white">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="about-img-wrapper">
+            <div class="about-img-bg"></div>
+            <div class="about-icon-stack">
+              <div class="icon-circle bg-warning"><i class="bi bi-house-heart-fill fs-2 text-dark"></i></div>
+              <div class="icon-circle bg-success"><i class="bi bi-patch-check-fill fs-2 text-white"></i></div>
+              <div class="icon-circle bg-primary"><i class="bi bi-people-fill fs-2 text-white"></i></div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80"
+                 alt="Entretien professionnel" class="about-img img-fluid rounded-4 shadow-lg" />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <span class="section-tag">Qui sommes-nous ?</span>
+          <h2 class="section-title">Votre partenaire de <span class="text-warning">propreté</span> au quotidien</h2>
+          <p class="text-muted mb-3">
+            <strong>RendrePropreMonChezMoi</strong> est une structure spécialisée dans l'entretien
+            et le nettoyage de locaux résidentiels, commerciaux et professionnels en Côte d'Ivoire.
+          </p>
+          <p class="text-muted mb-4">
+            Notre équipe formée et expérimentée intervient avec des produits adaptés et
+            du matériel professionnel pour vous offrir un résultat irréprochable à chaque passage.
+          </p>
+          <ul class="about-list list-unstyled mb-4">
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i> Personnel qualifié et formé</li>
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i> Produits écologiques et efficaces</li>
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i> Interventions planifiées ou à la demande</li>
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i> Tarifs transparents et compétitifs</li>
+          </ul>
+          <a href="#contact" class="btn btn-dark px-4 py-2 fw-semibold">
+            <i class="bi bi-arrow-right-circle me-2"></i>Prendre rendez-vous
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section id="services" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Ce que nous faisons</span>
+        <h2 class="section-title">Nos <span class="text-warning">services</span></h2>
+        <p class="text-muted mx-auto" style="max-width:550px;">
+          Nous proposons une gamme complète de prestations pour garder votre espace propre,
+          sain et agréable à vivre.
+        </p>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon bg-warning-subtle"><i class="bi bi-house-door-fill text-warning"></i></div>
+            <h5>Nettoyage résidentiel</h5>
+            <p>Ménage complet, dépoussiérage, aspiration, lavage de sols et vitres pour votre domicile.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon bg-primary-subtle"><i class="bi bi-building text-primary"></i></div>
+            <h5>Nettoyage de bureaux</h5>
+            <p>Entretien régulier de vos espaces de travail pour un environnement professionnel impeccable.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon bg-success-subtle"><i class="bi bi-shop text-success"></i></div>
+            <h5>Locaux commerciaux</h5>
+            <p>Nettoyage de magasins, restaurants, salons et tout type de commerce avec discrétion.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon bg-danger-subtle"><i class="bi bi-droplet-fill text-danger"></i></div>
+            <h5>Nettoyage en profondeur</h5>
+            <p>Décapage, récurage et traitement intensif pour redonner vie à vos surfaces les plus encrassées.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon bg-info-subtle"><i class="bi bi-wind text-info"></i></div>
+            <h5>Entretien des tissus</h5>
+            <p>Nettoyage de canapés, rideaux, moquettes et textiles d'ameublement à domicile.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon bg-warning-subtle"><i class="bi bi-stars text-warning"></i></div>
+            <h5>Fin de chantier / déménagement</h5>
+            <p>Remise en état complète après travaux ou déménagement pour un logement prêt à habiter.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card h-100 service-card--featured">
+            <div class="service-icon bg-dark-subtle"><i class="bi bi-building-fill text-dark"></i></div>
+            <h5>Entretien d'immeubles</h5>
+            <p>Nettoyage complet des parties communes : paliers, escaliers, halls d'entrée et devantures d'immeubles résidentiels et professionnels.</p>
+            <span class="badge bg-warning text-dark mt-2">Nouveau</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY US ═══════════════ -->
+  <section id="why-us" class="section-padding why-section text-white">
+    <div class="why-overlay"></div>
+    <div class="container position-relative">
+      <div class="text-center mb-5">
+        <span class="section-tag-light">Notre différence</span>
+        <h2 class="section-title text-white">Pourquoi choisir <span class="text-warning">RendrePropreMonChezMoi</span> ?</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="why-card text-center">
+            <i class="bi bi-award-fill fs-1 text-warning mb-3"></i>
+            <h6 class="fw-bold">Qualité certifiée</h6>
+            <p class="small text-white-50">Résultats contrôlés à chaque intervention.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="why-card text-center">
+            <i class="bi bi-clock-history fs-1 text-warning mb-3"></i>
+            <h6 class="fw-bold">Ponctualité</h6>
+            <p class="small text-white-50">Nous respectons vos horaires à la minute près.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="why-card text-center">
+            <i class="bi bi-lock-fill fs-1 text-warning mb-3"></i>
+            <h6 class="fw-bold">Discrétion & confiance</h6>
+            <p class="small text-white-50">Personnel sélectionné, fiable et discret.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="why-card text-center">
+            <i class="bi bi-currency-exchange fs-1 text-warning mb-3"></i>
+            <h6 class="fw-bold">Prix abordables</h6>
+            <p class="small text-white-50">Des tarifs clairs, sans frais cachés.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section id="testimonials" class="section-padding bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Ils nous font confiance</span>
+        <h2 class="section-title">Ce que disent nos <span class="text-warning">clients</span></h2>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="stars mb-2">
+              <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <p class="mb-3">"Excellent travail ! Mon appartement brille de propreté. L'équipe est sérieuse et très professionnelle. Je recommande vivement."</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="avatar-circle">A</div>
+              <div>
+                <strong>Awa Koné</strong>
+                <p class="small text-muted mb-0">Abidjan, Cocody</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="testimonial-card featured">
+            <div class="stars mb-2">
+              <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <p class="mb-3">"Service rapide et impeccable. Nos bureaux sont nettoyés chaque semaine et le résultat est toujours au rendez-vous. Très satisfait."</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="avatar-circle bg-success">K</div>
+              <div>
+                <strong>Kouamé Yao</strong>
+                <p class="small text-muted mb-0">Directeur, Plateau</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="stars mb-2">
+              <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-half text-warning"></i>
+            </div>
+            <p class="mb-3">"Intervention après travaux : le résultat était bluffant. Tout était propre et rangé. Je ferai appel à eux pour le prochain chantier."</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="avatar-circle bg-primary">M</div>
+              <div>
+                <strong>Marie Touré</strong>
+                <p class="small text-muted mb-0">Yopougon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ÉQUIPE ═══════════════ -->
+  <section id="team" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Nos collaborateurs</span>
+        <h2 class="section-title">Notre <span class="text-warning">équipe</span></h2>
+        <p class="text-muted mx-auto" style="max-width:550px;">
+          Des professionnels passionnés, formés et engagés pour vous offrir
+          un service irréprochable à chaque intervention.
+        </p>
+      </div>
+      <div class="row g-4 justify-content-center">
+
+        <!-- CEO -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="team-card text-center team-card--ceo">
+            <div class="team-avatar-wrap">
+              <div class="team-avatar bg-warning">SY</div>
+              <span class="ceo-badge"><i class="bi bi-stars me-1"></i>CEO</span>
+            </div>
+            <h6 class="fw-bold mt-3 mb-1">Sandrine Yapo</h6>
+            <p class="team-role">Directrice Générale</p>
+            <p class="small text-muted">Pilote la stratégie, les opérations et le développement de la structure au quotidien. Impliquée sur le terrain, elle incarne les valeurs de rigueur et d'excellence de la structure.</p>
+            <div class="team-skills">
+              <span class="skill-badge">Stratégie</span>
+              <span class="skill-badge">Opérations</span>
+              <span class="skill-badge">Leadership</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logistique -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="team-card text-center">
+            <div class="team-avatar bg-primary">NC</div>
+            <h6 class="fw-bold mt-3 mb-1">N'Goran Christian</h6>
+            <p class="team-role">Responsable Logistique</p>
+            <p class="small text-muted">Gère la planification des interventions, le matériel et la coordination des équipes sur le terrain pour garantir chaque mission dans les délais.</p>
+            <div class="team-skills">
+              <span class="skill-badge">Planification</span>
+              <span class="skill-badge">Coordination</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Commerciale -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="team-card text-center">
+            <div class="team-avatar bg-success">RY</div>
+            <h6 class="fw-bold mt-3 mb-1">Regina Yauba</h6>
+            <p class="team-role">Responsable Commerciale</p>
+            <p class="small text-muted">Développe le portefeuille clients, négocie les contrats et assure la fidélisation de nos partenaires résidentiels et professionnels.</p>
+            <div class="team-skills">
+              <span class="skill-badge">Développement</span>
+              <span class="skill-badge">Fidélisation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RH -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="team-card text-center">
+            <div class="team-avatar bg-danger">JY</div>
+            <h6 class="fw-bold mt-3 mb-1">Jocelyne YAPO</h6>
+            <p class="team-role">Responsable Ressources Humaines</p>
+            <p class="small text-muted">Recrute, forme et accompagne les agents pour maintenir une équipe motivée, compétente et fidèle aux valeurs de la structure.</p>
+            <div class="team-skills">
+              <span class="skill-badge">Recrutement</span>
+              <span class="skill-badge">Formation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ RECRUTEMENT ═══════════════ -->
+  <section id="recrutement" class="section-padding recrutement-section">
+    <div class="recrutement-overlay"></div>
+    <div class="container position-relative">
+      <div class="text-center mb-5">
+        <span class="section-tag-light">Carrières</span>
+        <h2 class="section-title text-white">Rejoignez notre <span class="text-warning">équipe</span></h2>
+        <p class="text-white-50 mx-auto" style="max-width:580px;">
+          Vous êtes motivé, rigoureux et vous aimez le travail bien fait ?
+          RendrePropreMonChezMoi recrute régulièrement des talents pour renforcer ses équipes.
+        </p>
+      </div>
+
+      <!-- Valeurs RH -->
+      <div class="row g-4 mb-5">
+        <div class="col-md-4">
+          <div class="recru-value-card text-center">
+            <i class="bi bi-graph-up-arrow fs-1 text-warning mb-3"></i>
+            <h6 class="fw-bold text-white">Évolution rapide</h6>
+            <p class="small text-white-50">Nous valorisons les compétences et offrons des perspectives d'évolution internes.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="recru-value-card text-center">
+            <i class="bi bi-mortarboard-fill fs-1 text-warning mb-3"></i>
+            <h6 class="fw-bold text-white">Formation continue</h6>
+            <p class="small text-white-50">Chaque agent bénéficie d'une formation aux techniques et produits professionnels.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="recru-value-card text-center">
+            <i class="bi bi-heart-fill fs-1 text-warning mb-3"></i>
+            <h6 class="fw-bold text-white">Ambiance bienveillante</h6>
+            <p class="small text-white-50">Une équipe soudée, un management humain et des conditions de travail respectueuses.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Postes ouverts — chargés dynamiquement -->
+      <h5 class="text-white fw-bold mb-4 text-center">
+        <i class="bi bi-briefcase-fill me-2 text-warning"></i>Postes actuellement ouverts
+      </h5>
+      <div id="jobs-container" class="row g-3 mb-5">
+        <!-- Rempli automatiquement par script.js -->
+      </div>
+
+      <!-- Formulaire de candidature -->
+      <div id="recru-form" class="recru-form-card mx-auto" style="max-width:700px;">
+        <h5 class="fw-bold mb-4 text-center">
+          <i class="bi bi-person-plus-fill me-2 text-warning"></i>Déposer ma candidature
+        </h5>
+        <form id="recrutementForm" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label class="form-label fw-semibold">Nom complet <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" placeholder="Votre nom et prénoms" required />
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label fw-semibold">Téléphone <span class="text-danger">*</span></label>
+              <input type="tel" class="form-control" placeholder="+225 XX XX XX XX XX" required />
+            </div>
+            <div class="col-12">
+              <label class="form-label fw-semibold">Email</label>
+              <input type="email" class="form-control" placeholder="votre@email.com" />
+            </div>
+            <div class="col-12">
+              <label class="form-label fw-semibold">Poste souhaité <span class="text-danger">*</span></label>
+              <select class="form-select" id="posteSelect" required>
+                <option value="" disabled selected>Choisir un poste…</option>
+                <!-- Options chargées dynamiquement par script.js -->
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label fw-semibold">Expérience & motivation <span class="text-danger">*</span></label>
+              <textarea class="form-control" rows="3"
+                placeholder="Parlez-nous de votre expérience dans l'entretien et de votre motivation à rejoindre notre équipe…" required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-warning btn-lg w-100 fw-bold" id="recruBtn">
+                <i class="bi bi-send-fill me-2"></i>Envoyer ma candidature
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section id="contact" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Parlons-en</span>
+        <h2 class="section-title">Contactez-<span class="text-warning">nous</span></h2>
+        <p class="text-muted mx-auto" style="max-width:500px;">
+          Remplissez le formulaire ou contactez-nous directement.
+          Nous vous répondons dans les plus brefs délais.
+        </p>
+      </div>
+      <div class="row g-5 align-items-start">
+
+        <!-- Info -->
+        <div class="col-lg-5">
+          <div class="contact-info-card">
+            <h5 class="fw-bold mb-4">Informations de contact</h5>
+
+            <div class="contact-info-item">
+              <div class="contact-icon bg-warning-subtle">
+                <i class="bi bi-telephone-fill text-warning"></i>
+              </div>
+              <div>
+                <p class="small text-muted mb-0">Téléphone / WhatsApp</p>
+                <a href="tel:+2250544108656" class="fw-semibold text-dark text-decoration-none">
+                  +225 05 44 10 86 56
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon bg-warning-subtle">
+                <i class="bi bi-envelope-fill text-warning"></i>
+              </div>
+              <div>
+                <p class="small text-muted mb-0">Email</p>
+                <a href="mailto:rendrepropre123@gmail.com" class="fw-semibold text-dark text-decoration-none">
+                  rendrepropre123@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon bg-warning-subtle">
+                <i class="bi bi-geo-alt-fill text-warning"></i>
+              </div>
+              <div>
+                <p class="small text-muted mb-0">Zone d'intervention</p>
+                <span class="fw-semibold">Abidjan et environs, Côte d'Ivoire</span>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon bg-warning-subtle">
+                <i class="bi bi-clock-fill text-warning"></i>
+              </div>
+              <div>
+                <p class="small text-muted mb-0">Horaires</p>
+                <span class="fw-semibold">Lun – Sam : 07h00 – 20h00</span>
+              </div>
+            </div>
+
+            <!-- Social / WhatsApp CTA -->
+            <a href="https://wa.me/2250544108656" target="_blank" rel="noopener"
+               class="btn btn-success w-100 mt-4 fw-semibold">
+              <i class="bi bi-whatsapp me-2 fs-5"></i>Écrire sur WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="col-lg-7">
+          <div class="contact-form-card">
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label class="form-label fw-semibold">Nom complet <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control form-control-lg" placeholder="Jean Dupont" required />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label fw-semibold">Téléphone <span class="text-danger">*</span></label>
+                  <input type="tel" class="form-control form-control-lg" placeholder="+225 XX XX XX XX XX" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label fw-semibold">Email</label>
+                  <input type="email" class="form-control form-control-lg" placeholder="votre@email.com" />
+                </div>
+                <div class="col-12">
+                  <label class="form-label fw-semibold">Type de service <span class="text-danger">*</span></label>
+                  <select class="form-select form-select-lg" required>
+                    <option value="" disabled selected>Sélectionner un service…</option>
+                    <option>Nettoyage résidentiel</option>
+                    <option>Nettoyage de bureaux</option>
+                    <option>Locaux commerciaux</option>
+                    <option>Entretien d'immeubles (paliers, escaliers, devantures)</option>
+                    <option>Nettoyage en profondeur</option>
+                    <option>Entretien des tissus</option>
+                    <option>Fin de chantier / déménagement</option>
+                    <option>Autre</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label fw-semibold">Votre message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" rows="4"
+                    placeholder="Décrivez votre besoin (surface approximative, fréquence souhaitée, date…)" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-warning btn-lg w-100 fw-bold">
+                    <i class="bi bi-send-fill me-2"></i>Envoyer ma demande
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-4">
+          <a class="footer-brand d-flex align-items-center gap-2 mb-3 text-decoration-none" href="#hero">
+            <i class="bi bi-stars fs-4 text-warning"></i>
+            <span class="fw-bold text-white">RendrePropreMonChezMoi</span>
+          </a>
+          <p class="text-white-50 small">
+            Votre espace mérite le meilleur soin. Faites confiance à nos professionnels
+            pour un intérieur propre et sain au quotidien.
+          </p>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <h6 class="text-white fw-semibold mb-3">Navigation</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Pourquoi nous</a></li>
+            <li><a href="#team">Notre équipe</a></li>
+            <li><a href="#recrutement">Recrutement</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="text-white fw-semibold mb-3">Services</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#services">Résidentiel</a></li>
+            <li><a href="#services">Bureaux</a></li>
+            <li><a href="#services">Commercial</a></li>
+            <li><a href="#services">Immeubles & parties communes</a></li>
+            <li><a href="#services">Fin de chantier</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="text-white fw-semibold mb-3">Contact rapide</h6>
+          <ul class="list-unstyled footer-links">
+            <li><i class="bi bi-telephone me-2 text-warning"></i>
+              <a href="tel:+2250544108656">+225 05 44 10 86 56</a>
+            </li>
+            <li><i class="bi bi-envelope me-2 text-warning"></i>
+              <a href="mailto:rendrepropre123@gmail.com">rendrepropre123@gmail.com</a>
+            </li>
+            <li><i class="bi bi-whatsapp me-2 text-warning"></i>
+              <a href="https://wa.me/2250544108656" target="_blank" rel="noopener">WhatsApp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary" />
+      <div class="text-center text-white-50 small py-3">
+        &copy; 2025 RendrePropreMonChezMoi. Tous droits réservés.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top -->
+  <button id="scrollTop" class="scroll-top-btn" title="Retour en haut">
+    <i class="bi bi-arrow-up-short fs-4"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
